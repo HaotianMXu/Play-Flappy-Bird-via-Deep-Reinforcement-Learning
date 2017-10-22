@@ -2,6 +2,7 @@
 
 ## Overview
 This project applies the Deep Q Learning algorithm to teach computer how to play flappy bird.
+
 <img src="./images/flappy_bird_demp.gif" width="200">
 
 ## Requirements:
