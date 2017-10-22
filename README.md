@@ -8,7 +8,7 @@ This project applies the Deep Q Learning algorithm to teach your computer how to
 ## Requirements:
 * [Python==3](https://www.anaconda.com/download/)
 * [TensorFlow](https://www.tensorflow.org/install/)
-* [pygame](http://www.pygame.org/wiki/GettingStarted#Pygame)
+* [Pygame](http://www.pygame.org/wiki/GettingStarted#Pygame)
 * [OpenCV-Python](https://www.pyimagesearch.com/2016/10/24/ubuntu-16-04-how-to-install-opencv/)
 
 
