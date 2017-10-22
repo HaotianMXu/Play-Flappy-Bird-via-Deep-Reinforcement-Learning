@@ -1,7 +1,7 @@
 # Using Deep Q-Network to Learn How To Play Flappy Bird
 
 ## Overview
-This project applies the Deep Q Learning algorithm to teach computer how to play flappy bird.
+This project applies the Deep Q Learning algorithm to teach your computer how to play flappy bird:)
 
 <img src="./images/flappy_bird_demp.gif" width="200">
 
