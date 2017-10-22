@@ -6,7 +6,7 @@ This project applies the Deep Q Learning algorithm to teach your computer how to
 <img src="./images/flappy_bird_demp.gif" width="200">
 
 ## Requirements:
-* Python==3
+* [Python==3](https://www.anaconda.com/download/)
 * [TensorFlow](https://www.tensorflow.org/install/)
 * [pygame](http://www.pygame.org/wiki/GettingStarted#Pygame)
 * [OpenCV-Python](https://www.pyimagesearch.com/2016/10/24/ubuntu-16-04-how-to-install-opencv/)
