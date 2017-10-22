@@ -40,5 +40,5 @@ For the ϵ greedy algorithm, I linearly anneal ϵ from 0.1 to 0.0001 during the 
 At each time step, the network samples minibatches from the replay memory for training, and updates weights using the Adam optimization algorithm with a learning rate of 1e-6. After annealing finishes, the network continues to train with ϵ fixed at 0.0001.
 
 ## Acknowledgement
-This work is adapted from [Lin's work](https://github.com/yenchenlin/DeepLearningFlappyBird).
+This work is adapted from [Lin's code](https://github.com/yenchenlin/DeepLearningFlappyBird).
 
