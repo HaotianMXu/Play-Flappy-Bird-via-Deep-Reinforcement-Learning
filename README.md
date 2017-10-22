@@ -27,8 +27,9 @@ Set TRAINING_MODE as True at Line 10 in deep_q_network.py
 2. Resize to 80x80
 3. Stack every four frames to produce an 80x80x4 input array for network
 #### Network Architecture
-<img src="./images/network.png">
-The architecture of the network is shown above. The first convolution layer applies 32 8x8 kernels with stride=4. The output is then put through a 2x2 max pooling layer. The second convolution layer carries 64 4x4 kernels with stride=2. A 2x2 max pooling layer is followed. The third convolution layer convolves with 64 3x3 kernels with stride=1. Then the output is passed through another 2x2 max pooling layer. At last, two fully connected layers with 256 hidden nodes are applied before making the final decision.
+This network contains three convolution and max pooling layers and two fully connected layers:
+
+The first convolution layer applies 32 8x8 kernels with stride=4. The output is then put through a 2x2 max pooling layer. The second convolution layer carries 64 4x4 kernels with stride=2. A 2x2 max pooling layer is followed. The third convolution layer convolves with 64 3x3 kernels with stride=1. Then the output is passed through another 2x2 max pooling layer. At last, two fully connected layers with 256 hidden nodes are applied before making the final decision.
 
 The final output layer has the same dimensionality as the number of valid actions which can be performed in the game, where the first node corresponds to doing nothing and the second corresponds to flying up in our case. This output layer represents Q function given the input state for each valid action. At each frame, the network chooses action with the highest Q value. ϵ greedy policy is utilized to balance exploration and exploitation.
 #### Parameter Setup
